@@ -12,6 +12,6 @@ service "httpd" do
   action :start
 end
 
-file "/var/www/html/index.html" do
-  content "Hello World"
+file '/var/www/html/index.html' do
+  content 'Hello World'
 end
